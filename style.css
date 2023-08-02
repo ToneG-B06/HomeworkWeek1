@@ -1,0 +1,154 @@
+body {
+  background-color: #4f7462;
+}
+
+header {
+  background: url(./Assets/BCKground.jpg);
+  display: inline-flex;
+  background-repeat: no-repeat;
+  background-color: lightgray;
+  background-size: cover;
+  align-items: center;
+  justify-content: center;
+  width: 1440px;
+  height: 204px;
+}
+
+h1 {
+  margin-right: 50px;
+  letter-spacing: 4.8px;
+  font-family: Georgia, "Times New Roman", Times, serif;
+  font-size: 48px;
+  color: #de8c50;
+  padding: 33px 19px 36px 15px;
+}
+
+input {
+  display: flex;
+  width: 200px;
+  padding: 10px 19px 10px 18px;
+  justify-content: center;
+  border-radius: 21px;
+  background: #8f3d3d;
+  color: #000;
+  /* I would like the placeholder-text to be black in color */
+  font-family: Georgia, "Times New Roman", Times, serif;
+  letter-spacing: 2px;
+}
+
+/* I want the Username field to be on top of the Password field, next to the headline */
+
+button {
+  width: 84px;
+  height: 32px;
+  padding: 4px 10px 3px 9px;
+  border-radius: 40px;
+  background: #119d5a;
+}
+/* I would like to Button to be placed next to the input fields (stacked on top of eachother) in a center position */
+
+.main {
+  margin-top: 100px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  align-content: start;
+}
+/* I would like to have two different columns with three pictures in each column. I would also like the caption to align in the center below the image. */
+.monstera {
+  width: 136px;
+  height: 164px;
+  border-radius: 73px;
+  background: lightgray 50% / contain no-repeat;
+  transition: all width height 2s ease 4s;
+}
+
+.sølv {
+  width: 136px;
+  height: 164px;
+  border-radius: 73px;
+  background: lightgray 50% / contain no-repeat;
+  transition: all width height 2s ease 4s;
+}
+
+.aloe {
+  width: 136px;
+  height: 164px;
+  border-radius: 73px;
+  background: lightgray 50% / contain no-repeat;
+  transition: all width height 2s ease 4s;
+}
+
+.philo {
+  width: 136px;
+  height: 164px;
+  border-radius: 73px;
+  background: lightgray 50% / contain no-repeat;
+  transition: all width height 2s ease 4s;
+}
+
+.strel {
+  width: 136px;
+  height: 164px;
+  border-radius: 73px;
+  background: lightgray 50% / contain no-repeat;
+  transition: all width height 2s ease 4s;
+}
+
+.gummi {
+  width: 136px;
+  height: 164px;
+  border-radius: 73px;
+  background: lightgray 50% / contain no-repeat;
+  transition: all width height 2s ease 4s;
+}
+
+footer {
+  background: url(./Assets/BCKground.jpg);
+  width: 100%;
+  display: inline-flex;
+  background-repeat: no-repeat;
+  background-color: lightgray;
+  background-size: cover;
+  align-items: end;
+  width: 1440px;
+  height: 204px;
+  color: aliceblue;
+  text-align: end;
+}
+
+.gummi:hover {
+  border-radius: 0%;
+  width: 250px;
+  height: 250px;
+}
+
+.monstera:hover {
+  border-radius: 0%;
+  width: 250px;
+  height: 250px;
+}
+
+.philo:hover {
+  border-radius: 0%;
+  width: 250px;
+  height: 250px;
+}
+
+.aloe:hover {
+  border-radius: 0%;
+  width: 250px;
+  height: 250px;
+}
+
+.strel:hover {
+  border-radius: 0%;
+  width: 250px;
+  height: 250px;
+}
+
+.sølv:hover {
+  border-radius: 0%;
+  width: 250px;
+  height: 250px;
+}
